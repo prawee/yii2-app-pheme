@@ -41,7 +41,7 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 You can then install the application using the following command:
 
 ~~~
-php composer.phar create-project --prefer-dist --stability=dev yiisoft/yii2-app-advanced advanced
+php composer.phar create-project --prefer-dist --stability=dev prawee/yii2-app-pheme your-project-name
 ~~~
 
 
