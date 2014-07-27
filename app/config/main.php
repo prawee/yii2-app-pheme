@@ -28,6 +28,9 @@ return [
         'errorHandler' => [
             'errorAction' => 'site/error',
         ],
+        'request'=>[
+            'cookieValidationKey'=>'your-key-for-cookie-validation',
+        ]
     ],
     'params' => $params,
 ];
