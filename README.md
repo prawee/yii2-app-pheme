@@ -40,12 +40,21 @@ at [getcomposer.org](http://getcomposer.org/doc/00-intro.md#installation-nix).
 
 You can then install the application using the following command:
 
+Linux
+-------
 ~~~
 php composer.phar create-project --prefer-dist --stability=dev prawee/yii2-app-pheme your-project-name
 
 php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta2"
 ~~~
 
+Windows
+-------
+~~~
+composer create-project --prefer-dist --stability=dev prawee/yii2-app-pheme your-project-name
+
+composer global require "fxp/composer-asset-plugin:1.0.0-beta2"
+~~~
 
 GETTING STARTED
 ---------------
