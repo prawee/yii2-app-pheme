@@ -42,6 +42,8 @@ You can then install the application using the following command:
 
 ~~~
 php composer.phar create-project --prefer-dist --stability=dev prawee/yii2-app-pheme your-project-name
+
+php composer.phar global require "fxp/composer-asset-plugin:1.0.0-beta2"
 ~~~
 
 
