@@ -23,11 +23,6 @@
         "codeception/verify": "BDD Assertions for PHPUnit and Codeception",
         "yiisoft/yii2-faker": "Fixtures generator for Yii2 based on Faker lib"
     },
-    "scripts": {
-        "post-create-project-cmd": [
-            "yii\\composer\\Installer::setPermission"
-        ]
-    },
     "config": {
         "process-timeout": 1800
     },
