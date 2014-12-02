@@ -55,6 +55,8 @@ composer global require "fxp/composer-asset-plugin:1.0.0-beta4"
 
 composer create-project --prefer-dist --stability=dev prawee/yii2-app-pheme your-project-name
 
+cd your-project-name
+
 composer --prefer-dist update
 ~~~
 
